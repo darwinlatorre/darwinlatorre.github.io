@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  You can see the portfolio <a href="https://darwinlatorre.github.io/DarwinWebSite/">DEMO.</a>
+  You can see the portfolio <a href="https://darwinlatorre.github.io/">DEMO.</a>
   <br/>  
   <br/>
   I've used.
