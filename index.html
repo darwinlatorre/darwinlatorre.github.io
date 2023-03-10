@@ -1,12 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="scss/style.css">
+
+    <title>Darwin Latorre</title>
 </head>
+
 <body>
-    <H1>COMING SOON....</H1>
+
+    <!-- NAVBAR STAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark menu">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="logo image" width="55" height="55">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#socialmedia">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#academic_information">Academic Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work_information">Working Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-outline-secondary btn-almostrounded margin-left">Resume
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!--NAVBAR END-->
+
+    <!--INTRO START-->
+    <section id="home" class="intro-section">
+        <div class="container">
+            <!--container-->
+            <div class="row container-intro">
+                <div class="col-md6 intros">
+                    <!--intros-->
+                    <h1 class="display-2">
+                        <span class="display-2--intro">Hi, How you doing? My name is</span>
+                        <span class="display-2--introname">Darwin Latorre.</span>
+                        <span class="display-2--description lh-sm">
+                            I like to think out of the box and built stuff.
+                        </span>
+                    </h1>
+
+                    <div class="startbtn">
+                        <button type="button" class="btn btn-outline-secondary btn-almostrounded-bg">Get started...
+                        </button>
+                    </div>
+
+                </div>
+                <!--intros-->
+            </div>
+
+        </div>
+        <!--container-->
+    </section>
+    <!--INTRO END-->
+
+    <section id="socialmedia" class="socialmedia-sec">
+        <div class="container">
+            <div class="row text-center">
+                <h4 class="fw-bold lead mb-3">My social media</h4>
+                <div class="heading-line mb-5"></div>
+            </div>
+        </div>
+
+        <!--SOCIAL MEDIA SPACE-->
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 col-lg">
+                    <div class="socialmedia__logo-box shadow-lg">
+                        <a href="https://github.com/darwinlatorre" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <title>GitHub</title>
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg">
+                    <div class="socialmedia__logo-box shadow-lg">
+                        <a href="https://www.instagram.com/darwinlatorre_/" target="_blank" rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <title>Instagram</title>
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg">
+                    <div class="socialmedia__logo-box shadow-lg">
+                        <a href="https://twitter.com/latorre_darwin" target="_blank" rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <title>Twitter</title>
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                </path>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg">
+                    <div class="socialmedia__logo-box shadow-lg">
+                        <a href="https://www.linkedin.com/in/darwin-latorre-angulo-880373164" target="_blank"
+                            rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <title>LinkedIn</title>
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg">
+                    <div class="socialmedia__logo-box shadow-lg">
+                        <a href="https://www.twitch.tv/darrkwin" target="_blank" rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 268" fill="none"
+                                stroke="currentColor" stroke-width="18">
+                                <title>Twitch</title>
+                                <path
+                                    d="M17.458 0L0 46.556v186.201h63.983v34.934h34.931l34.898-34.934h52.36L256 162.954V0H17.458Zm23.259 23.263H232.73v128.029l-40.739 40.741H128L93.113 226.92v-34.886H40.717V23.263Zm64.008 116.405H128V69.844h-23.275v69.824Zm63.997 0h23.27V69.844h-23.27v69.824Z">
+                                    <path />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--ABOUT START-->
+    <section id="about-me" class="about-me">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="display-3 fw-bold">
+                    About me
+                </h1>
+                <div class="heading-line mb-1"></div>
+            </div>
+
+            <!--DESCRIPTION CONTENT-->
+
+            <div class="row pt-2 pb-2 mt-0 mb-3">
+                <div class="col-md-6 border-right">
+                    <div class="bg-primary p-3">
+                        <h2 class="fw-bold text-capitalize text-center">
+                            Hello! My name is Darwin and i'm studying systems engineering at the <a
+                                href="http://www.unicauca.edu.co/versionP/" target="_blank"
+                                class="linkdecoration">university of cauca</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-primary p-4 text-start">
+                        <p class="fw-light">
+                            Currently in 7 semester trying to work on my developer skills (currently more interested in
+                            web design), but in general i am more oriented to informatic security.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SOME SECTION-->>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about-me mt-4 border-right">
+                    <div class="about-me__content">
+                        <h3 class="display-3--title mt-1 ">Skills</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about-me mt-4">
+                    <div class="about-me__content">
+                        <p class="lh-lg">
+                            Here are a few technologies I’ve been working with recently:<br>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item">Python</li>
+                            <li class="list-group-item">C#</li>
+                            <li class="list-group-item">C</li>
+                            <li class="list-group-item">Java</li>
+                            <li class="list-group-item">MySQL</li>
+                            <li class="list-group-item">Node.js</li>
+                        </ol><br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about-me mt-4">
+                    <div class="about-me__content" id="academic_information">
+                        <p class="lh-lg">
+                            - Institución Universitaria Colegio Mayor del Cauca: Programa de formación académica en conocimientos y aptitud ocupacional en idioma extranjero inglés. (2016-2019)
+                        </p>
+                        <p class="lh-lg">
+                            - Colegio Liceo Cervantes: Academic baccalaureate. (2017)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about-me mt-4 border-left">
+                    <div class="about-me__content">
+                        <div class="about-me__content">
+                            <h3 class="display-3--title mt-1 ">Academic Information</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 border-right">
+                    <div class="about-me__content">
+                        <div class="about-me__content" id="work_information">
+                            <h3 class="display-3--title mt-1 ">Working Information</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+                    <div class="about-me__content">
+                        <p class="lh-lg">
+                            None
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+                    <div class="about-me__content">
+                        <div class="form w-100 pd-2">
+                            <h4 class="display-3--title mb-5">Get in touch</h4>
+                            <form action="#" class="row">
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+                                </div>
+                                <div class="col-lg-12 mb-3">
+                                    <input type="text" placeholder="Email address" id="inputEmail" class="shadow form-control form-control-lg">
+                                </div>
+                                <div class="col-lg-12 mb-3">
+                                    <textarea name="mesage" placeholder="Message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+                                </div>
+                                <div class="text-center d-grid mt-1">
+                                    <button type="button" class="btn btn-outline-secondary btn-almostrounded">
+                                        Submit
+                                    </button>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 border-left">
+                    <div class="services__content">
+                        <div class="about-me__content" id="contact">
+                            <h3 class="display-3--title mt-1 ">Contact</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!--ABOUT END-->
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>

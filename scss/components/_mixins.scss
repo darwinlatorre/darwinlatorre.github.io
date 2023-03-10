@@ -1,0 +1,5 @@
+@use '../custom' as *;
+
+@mixin back-color {
+    background: $primary;
+}

@@ -1,0 +1,45 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.about-me {
+    position: relative;
+    padding: 1rem 0;
+    background-color: $primary;
+    h1 {
+        margin-top: 80px;
+    }
+    p {
+        font-weight: bold !important;
+    }
+    .row {
+        align-items: center;
+        
+    }
+
+    &__content {
+        padding: 1rem;
+        margin-top: 0rem;
+
+        p{
+            font-size: 0.8rem;
+            @include media-breakpoint-up(lg){
+                font-size: 1rem;
+            }
+        }
+
+        @include media-breakpoint-up(lg){
+            //margin-top: 5rem;
+        }
+    }
+
+}
+
+.list-group-numbered {
+    --bs-list-group-color: #8892B0;
+    --bs-list-group-bg: #0a192f;
+    --bs-list-group-border-color: #64FFDA;
+}
+
+.list-group-item {
+    padding: 0.25rem 0.5rem;
+}

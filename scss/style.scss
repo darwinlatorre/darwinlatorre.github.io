@@ -1,0 +1,17 @@
+@use 'custom';
+
+//IMPORT THE COMPONETS
+
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+//IMPORT THE SECTIONS
+
+@use 'sections/about-me-info';
+@use 'sections/contact';
+@use 'sections/footer';
+@use 'sections/intro-section';
+@use 'sections/navbar';
+@use 'sections/socialmedia'
